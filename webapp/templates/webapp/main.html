@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ribsbbqs</title>
+        <link rel="shortcut icon" type="image/png" href="{% static 'favicon.ico' %}"/>
+    <style>
+.myDiv {
+  border: 5px outset #FF0000;
+  background-color: #000000;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+<p><h1>Página web Ribsbbqs</h1></p>
+
+<div class="myDiv">
+    <p style="color:#FF0000; font-size: 25pt";> <b>Nuestros productos</b></p>
+  <img src="{% static "imagen1.jpeg" %}" alt="Imagen ribs" style="width:1300px;height:600px;">
+</div>
+</body>
+</html>
